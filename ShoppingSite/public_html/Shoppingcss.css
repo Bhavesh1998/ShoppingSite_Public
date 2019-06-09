@@ -1,0 +1,294 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 14, 2019, 3:07:15 PM
+    Author     : BHAVESH SHAH
+*/
+
+*{
+      transition: 1s;
+}
+
+#body1 {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    margin: 0;
+}
+
+.Header{
+      background-color:#000;
+      color:#fff;     
+      border-color: #080808;     
+      min-height: 50px;     
+      border: 1px solid transparent;
+}
+
+body a{
+      text-decoration: none;
+      color: white;
+}
+
+.inner-header {
+      width:100%;     
+      margin:auto;
+      
+
+}
+
+.logo {
+      float: left;     
+      height: 50px;     
+      font-size: 20px;     
+      font-weight: bold;
+      padding: 15px 15px;    
+      color: blanchedalmond;
+}
+
+
+.header-link {
+      float: right;     
+      font-size: 14px;     
+      height: 50px;     
+      padding: 15px 15px;     
+      font-size: 16px;     
+      font-weight: bold; 
+      
+}
+
+.content {
+    min-height: 600px; 
+}
+
+.banner-image {
+        padding-bottom: 50px;     
+        margin-bottom: 20px;     
+        text-align: center;     
+        color: #f8f8f8;     
+        background: url("female-friends-out-shopping-together_53876-25041.jpg") no-repeat center;     
+        background-size: cover;
+        background-attachment: fixed;  
+        height: 600px;
+} 
+
+.inner-banner-image{
+      padding-top: 12%;     
+      width:100%;     
+      margin:auto;
+}
+
+.banner-content {
+      position: relative;      
+      padding-top: 6%;     
+      padding-bottom: 6%;     
+      overflow: hidden;    
+      margin-bottom: 12%;     
+      background-color: rgba(0, 0, 0, 0.74);     
+      max-width: 660px; 
+      margin: 0 auto;
+
+      animation-name: move;
+      animation-duration: 3s; 
+      animation-iteration-count:infinite;
+      animation-timing-function: linear;
+}
+
+@keyframes move {
+      0%, 100%{
+            transform: scale(1);
+      }
+      50%{
+            transform: scale(1.2);
+      }
+}
+
+.button {
+      color: #fff;     
+      background-color: #c9302c;     
+      border-color: #ac2925;     
+      box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);     
+      padding: 10px 16px;     
+      font-size: 18px;     
+      border-radius: 6px; 
+      transition: 0.5s;
+}
+
+.button:hover{
+      background-color: rgba(0, 0, 0, .125);     
+      color: white;
+}
+
+.container {
+       width:90%;     
+       margin: 0 auto;
+       text-align: center; 
+       overflow:hidden;
+}
+
+.items {
+      width:30%;     
+      display: block;     
+      padding: 4px;     
+      margin-bottom: 20px;     
+      line-height: 1.42857143;     
+      background-color: #fff;     
+      border: 1px solid #ddd;     
+      border-radius: 4px;     
+      float: left;     
+      margin-left: 1%; 
+ 
+ 
+}
+
+.thumbnail {
+      display: block;     
+      max-width: 100%;     
+      height: auto; 
+}
+
+.items:hover{
+      transform: scale(1.051);
+      box-shadow: 3px 3px 5px black, -3px 3px 5px black, 3px -3px 5px black, -3px -3px 5px black;
+}
+
+.caption {
+     color:#000;     
+     padding:0px 10px 10px;     
+     font-weight: bold;     
+     text-align: center;
+     font-family: 'Roboto';
+}
+
+.foot {
+       background-color: #000;     
+       color:#fff;     
+       font-size:14px; 
+}
+
+#body2 {
+      background-image: url("../nbproject/Media/Log-inImg.jpeg");
+      background-color: azure;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+
+}
+
+.Log {
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 25px;
+    padding-top: 20px;
+    margin-top: 50px;
+    
+    
+    
+}
+
+#user {
+      height: 30px;
+      width: 20%; 
+      margin-left: 40%;
+}
+
+#password {
+      height: 30px; 
+      width: 20%; 
+      margin-left: 40%;
+}
+
+#body3 {
+      background-image: url("../nbproject/Media/SImg.jpeg");
+      background-size: 100%;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      background-color: azure;
+      
+
+
+}
+
+.sign {
+      text-align: center;
+      font-family: 'Roboto';
+      padding-top: 20px;
+      font-size: 20px;
+      margin-top: 50px;
+      margin-left: 55%;
+      background-color: rgba(39, 37, 37, 0.74);     
+      max-width: 500px; 
+      display: block;
+      border-radius: 10%;
+      text-decoration-style: solid;
+
+}
+
+#name {
+      height: 30px; 
+      width: 40%; 
+      margin-left: 30%;
+}
+
+#email {
+      height: 30px; 
+      width: 40%; 
+      margin-left: 30%;
+}
+
+#pass {
+      height: 30px; 
+      width: 40%; 
+      margin-left: 30%;
+}
+#sub {
+      font-weight: bold;
+}
+#Sfooter {
+      margin-left: 50%;
+      font-size: 20px;
+      color: #ac2925;
+      font-style: italic;
+}
+
+#body4 {
+      width: 100%;
+      height: 100%;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+      margin: 0;
+}
+.wat {
+      padding: 4px;
+      width: 30%;
+      height: 30%;
+      margin: 1px;
+      
+      
+
+}
+
+.r1 {
+      height: 30%;
+      
+}
+
+#image {
+      height: 300px;
+      width: 430px;
+      padding: 2px;
+      margin: 1px;
+}
+
+
+/* ########################## MEDIA QUERIES ###################### */
+
+@media only screen and (max-width: 992px){
+      .banner-image{
+            height: 480px;
+      }
+}
